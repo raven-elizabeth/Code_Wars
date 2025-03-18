@@ -6,3 +6,10 @@ def even_or_odd(number):
         return "Even"
     else:
         return "Odd"
+    
+# Ternary operator example:
+def ternary_even_or_odd(num):
+    return "Even" if num % 2 == 0 else "Odd"
+
+print(even_or_odd(7))
+print(ternary_even_or_odd(7))
